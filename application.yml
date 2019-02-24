@@ -12,12 +12,12 @@ spring:
 
 ---
 spring:
-  profiles:
+  profiles: test
     active:
     - test
 
 ---
 spring:
-  profiles: test #开发模式
+  profiles: test #测试模式
   application:
-     name: deptspringcloud-config-spring-dev
+     name: deptspringcloud-config-spring-test
